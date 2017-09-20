@@ -46,7 +46,17 @@ public class Matriz {
      * @return A soma das matrizes
      */
     public Matriz soma(Matriz m) {
-        throw new UnsupportedOperationException("Soma de matrizes não implementada.");
+        Matriz soma = new Matriz(mat.length, mat[0].length);
+        double[][] som = soma.getMatriz();
+        double[][] matr = m.getMatriz();
+        for(int i=0 ; i<mat.length ; i++){
+            for(int j=0 ; j<mat[0].length ; j++){
+                som[i][j] = mat[i][j] + matr[i][j];
+                
+            }
+        }
+        
+        return soma;
     }
 
     /**

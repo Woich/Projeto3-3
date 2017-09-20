@@ -14,8 +14,21 @@ public class Projeto33 {
         m[1][1] = 1.1;
         m[2][0] = 2.0;
         m[2][1] = 2.1;
+        
+        Matriz adicao = new Matriz(3, 2);
+        double[][] adc = adicao.getMatriz();
+        adc[0][0] = 1.0;
+        adc[0][1] = 1.0;
+        adc[1][0] = 1.0;
+        adc[1][1] = 1.0;
+        adc[2][0] = 1.0;
+        adc[2][1] = 1.0;
+        
         Matriz transp = orig.getTransposta();
+        Matriz soma = orig.soma(adicao);
+        
         System.out.println("Matriz original: " + orig);
         System.out.println("Matriz transposta: " + transp);
+        System.out.println("Matriz Soma: " + soma);
     }
 }
