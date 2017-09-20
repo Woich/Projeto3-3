@@ -1,5 +1,3 @@
-package utfpr.ct.dainf.if62c.pratica.fp2pratica3;
-
 /**
  * Representa uma matriz de valores {@code double}.
  * @author Wilson Horstmeyer Bogadao <wilson@utfpr.edu.br>
