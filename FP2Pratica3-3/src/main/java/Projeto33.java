@@ -26,12 +26,12 @@ public class Projeto33 {
         
         Matriz prod = new Matriz(2, 3);
         double[][] produ = prod.getMatriz();
-        adc[0][0] = 2.0;
-        adc[0][1] = 2.0;
-        adc[0][2] = 2.0;
-        adc[1][0] = 2.0;
-        adc[1][1] = 2.0;
-        adc[1][2] = 2.0;
+        produ[0][0] = 2.0;
+        produ[0][1] = 2.0;
+        produ[0][2] = 2.0;
+        produ[1][0] = 2.0;
+        produ[1][1] = 2.0;
+        produ[1][2] = 2.0;
         
         Matriz transp = orig.getTransposta();
         Matriz soma = orig.soma(adicao);

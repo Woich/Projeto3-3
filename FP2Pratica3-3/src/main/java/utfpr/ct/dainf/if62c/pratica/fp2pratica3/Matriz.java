@@ -73,14 +73,14 @@ public class Matriz {
             }
         }
         
-        /*for(int i=0 ; i<mat.length ; i++){
+        for(int i=0 ; i<mat.length ; i++){
             for(int j=0 ; j < m.mat[0].length ; j++){
                 for(int x=0 ; x< mat[0].length ; x++){
-                    prod[i][j] += mat[i][x] * m.mat[x][j];
+                    prod.mat[i][j] += mat[i][x] * m.mat[x][j];
                 }
                 
             }
-        }*/
+        }
         
         return prod;
     }
