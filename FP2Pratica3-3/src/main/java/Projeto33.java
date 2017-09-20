@@ -31,7 +31,7 @@ public class Projeto33 {
         produ[0][2] = 2.0;
         produ[1][0] = 2.0;
         produ[1][1] = 2.0;
-        produ[1][2] = 2.0;
+        produ[1][2] = 4.0;
         
         Matriz transp = orig.getTransposta();
         Matriz soma = orig.soma(adicao);
