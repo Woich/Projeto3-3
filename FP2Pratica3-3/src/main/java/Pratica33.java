@@ -4,7 +4,7 @@ import utfpr.ct.dainf.if62c.pratica.fp2pratica3.Matriz;
  * Exemplo de programação em Java.
  * @author Wilson Horstmeyer Bogado <wilson@utfpr.edu.br>
  */
-public class Projeto33 {
+public class Pratica33 {
     public static void main(String[] args) {
         Matriz orig = new Matriz(3, 2);
         double[][] m = orig.getMatriz();
